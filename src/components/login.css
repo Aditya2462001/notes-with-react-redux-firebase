@@ -1,0 +1,36 @@
+.login__container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    /* text-shadow: 1px 1px 1px rgba(20, 114, 202, 0.808); */
+}
+.login__title
+{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.welcome__img
+{
+    width: 300px;
+    height: 300px;
+}
+.google__icon
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width:400px)
+{
+    .welcome__img
+    {
+        width: 200px;
+        height: 200px;
+    }
+}

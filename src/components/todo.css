@@ -1,0 +1,47 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(225, 225, 225, 0.938);
+}
+
+.logo ,.user__data
+{
+    display:flex;
+    align-items: center;
+}
+.user__name
+{
+    padding: 0px 10px;
+}
+
+.loader
+{
+    width:100%;
+    min-height: 150px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+
+
+.footer
+{
+    position: fixed;
+    top: 50%;
+    left: -90px;
+    font-size: 12px;
+    transform: rotate(90deg);
+}
+
+@media (max-width:421px)
+{
+    .footer
+    {
+        left: -95px;
+    }
+}
